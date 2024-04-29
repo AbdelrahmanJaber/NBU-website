@@ -108,6 +108,7 @@ Receives studies from NBU, accepts/rejects them, and posts approved studies for 
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/eeae5905-e1a0-4bf5-9755-f5ed35986d63)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/c6623fdd-909c-44a3-884c-4458debb2bdd)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/4e6dcfc7-9617-424b-9a3d-c5bda1edb76d)
+![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/b8f7bd8b-8cee-47bb-9293-cf3230c2d0f8)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/733a21d2-175b-4e03-90af-c6f9df7c2c89)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/09eeb2fe-fd0d-467b-b9ed-9bb3258ba44c)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/948693a6-522a-444e-adcc-0d69687bf3ca)
@@ -115,6 +116,7 @@ Receives studies from NBU, accepts/rejects them, and posts approved studies for 
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/43b37257-937f-4302-9206-cb3c35468fdb)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/a0419874-7d83-426a-a33b-c958d4b74840)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/88ef086e-87c1-4b02-9526-a7d26b0fdb34)
+![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/6ac472fd-e316-45e4-ae06-41e86607f31f)
 ![image](https://github.com/AbdelrahmanJaber/NBU-website/assets/113253216/624918e2-2311-4141-892c-3bd0df9cf42c)
 
 <br/>
