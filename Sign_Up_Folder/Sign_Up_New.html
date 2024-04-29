@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Sign-Up.css">
+    <script>
+        function validateForm() {
+            //forms["name of the form"]["name of the element in that form"];
+            var userName=document.forms["Sign_Up_Form"]["uName"].value;
+            var userEmail=document.forms["Sign_Up_Form"]["uEmail"].value;
+            var userPassword=document.forms["Sign_Up_Form"]["uPassword"].value;
+            var userConfirmPassword=document.forms["Sign_Up_Form"]["uCPassword"].value;
+            var userType=document.forms["Sign_Up_Form"]["mem_level"].value;
+
+            if(userName!="" && userEmail!="" && userPassword!="" && userConfirmPassword!=""){
+                if(userType==4){
+                    document.getElementById("msg1").innerHTML="Please choose the type";
+                    return false;
+                }
+                else{
+                    document.getElementById("msg1").innerHTML="";
+                    //or hide
+                }
+
+                if(userPassword!=userConfirmPassword){
+                    document.getElementById("msg").innerHTML="There is no match between passwords";
+                    return false;
+
+                }
+                else{
+                    document.getElementById("msg").innerHTML="";
+                }
+
+            }
+
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="Sign-Up-Box">
+    <h1>Sign Up</h1>
+    <form  id="Sign_Up_Form" name="Sign_Up_Form" onsubmit="return validateForm()" method="post" action="Sign-Up.php">
+        <div class="textbox">
+        <i id="icon-name" class="fa fa-user fa"></i>
+        <input type="text" placeholder="User Name" name="uName" id="uName" required>
+    </div>
+
+        <div class="textbox">
+            <i id="icon-id" class="fa fa-id-card"></i>
+            <input type="text" placeholder="User ID" name="uID" id="uID" required>
+        </div>
+
+        <div class="textbox">
+            <i id="icon-email" class="fa fa-envelope fa-lg fa-fw"></i>
+            <input type="email" placeholder="Email" name="uEmail" required>
+        </div>
+
+        <div class="textbox">
+            <i id="icon-phone" class="fa fa-phone"></i>
+            <input type="text" placeholder="User Phone" name="uPhone" id="uPhone" required>
+        </div>
+
+        <div class="textbox">
+            <i id="icon-pass1" class="fa fa-lock"></i>
+            <input type="password" placeholder="Password" name="uPassword" id="pass1" required>
+        </div>
+
+        <div class="textbox">
+            <i id="icon-pass2" class="fa fa-lock"></i>
+            <input type="password" placeholder="Confirm Your Passsword" name="uCPassword" id="pass2" required >
+        </div>
+        <div>
+            <h4 id="msg"></h4>
+        </div>
+
+        <select id = "mem_level" name="mem_level">
+            <option value = "4">type</option>
+            <option value = "1">NBU Member</option>
+            <option value = "2">MOH member</option>
+            <option value = "3">IRB member</option>
+
+        </select>
+        <div>
+            <h4 id="msg1"></h4>
+        </div>
+
+
+        <input type="submit" id="btn" name="butt" value="Sign Up">
+
+
+    </form>
+
+</div>
+
+</body>
+</html>

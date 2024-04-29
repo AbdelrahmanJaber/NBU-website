@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <style>
+     #div1{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       background-color: rgba(123,157,202,0.3);
+       border-radius: 60px ;
+
+       width: 380px;
+       height: 460px;
+      border: 3px solid steelblue;
+
+     }
+
+     #logimg1
+     {
+       margin-left: 120px;
+       margin-top: 10px;
+       width: 120px;
+       height: 120px;
+       border-radius: 60px 60px;
+       margin-bottom: 0;
+
+
+     }
+     #p1{
+       margin-top: 0px;
+     }
+     #p1,#p2{
+       font-size: 24px;
+       text-align: center;
+       font-family: "Arabic Typesetting";
+       margin-bottom: 5px;
+     }
+     #emailInput , #passInput{
+       background-color: rgba(123,157,202,0.1);
+       border: 1.5px solid  rgba(123,157,202,0.8);
+       border-radius: 60px ;
+       width: 270px;
+       height: 40px;
+       margin-left: 55px;
+       text-align:center;
+     }
+     #subInput{
+       background-color: seagreen;
+       border: 1.5px solid  rgba(123,157,202,0.2);
+       border-radius: 60px ;
+       width: 120px;
+       height: 30px;
+       margin-left: 130px;
+       text-align:center;
+       font-family: "Arabic Typesetting";
+       font-size: 24px;
+       color: white;
+
+     }
+
+   </style>
+
+</head>
+<body>
+<div id="div1">
+<img src="images/nbuimg.png" id="logimg1">
+  <form method="post" action="LOG_IN_NBU.php" enctype="multipart/form-data">
+    <br>    <br>     <br>
+    <p id="p1"><b>User ID</b></p>
+    <input type="text" placeholder="User ID" id="emailInput" name="user_name1" onclick="emaileHandler1()" onkeypress="emaileHandler1()"
+           onmouseout="emaileHandler2()" onmouseover="emaileHandler3()" required>
+    <br>
+    <p id="p2"><b>Password</b></p>
+    <input type="password" placeholder="Password"  id="passInput" name="password1" onclick="passHandler1()" onkeypress="passHandler1()"
+           onmouseout="passHandler2()"  onmouseover="passHandler3()" required>
+    <br><br>
+   <b> <input type="submit" id="subInput" value="LogIn"></b>
+    <br>
+  </form>
+</div>
+
+<script>
+  function emaileHandler1() {
+
+    document.getElementById('emailInput').style="border :1.5px solid rgba(123,157,202,0.8);";
+
+  }
+  function emaileHandler2() {
+    document.getElementById('emailInput').style="border :1.5px solid rgba(123,157,202,.3)";}
+  function emaileHandler3() {
+    document.getElementById('emailInput').style="width:300px ; height:60px; margin-left:40px; border :1.5px solid rgba(123,157,202,0.8)";
+
+  }
+  <!--for password-->
+    function passHandler1() {
+      document.getElementById('passInput').style="border :1.5px solid rgba(123,157,202,0.8)";
+
+    }
+    function passHandler2() {
+      document.getElementById('passInput').style="border :1.5px solid rgba(123,157,202,.3)";
+  }
+  function passHandler3() {
+    document.getElementById('passInput').style = "width:300px ; height:60px; margin-left:40px; border :1.5px solid rgba(123,157,202,0.8)";
+  }
+  <!--for submit button-->
+
+</script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("sign-up.jpg") no-repeat;
+   background-size: cover;
+}
+
+.Sign-Up-Box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.Sign-Up-Box h1{
+    //float: left;
+    font-size: 40px;
+    border-bottom: 3px solid silver;
+    margin-bottom: 50px;
+    padding: 13px 0;
+
+}
+.textbox{
+    width: 300px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+
+    margin: 8px 0;
+    border-bottom: 1px solid silver;
+}
+
+#icon-name{
+    position: absolute;
+    top: 160px;
+    left: 4px;
+    width:40px;
+    margin :0 10px;
+}
+#icon-id {
+    position: absolute;
+    top: 210px;
+    left: 4px;
+    width: 5px;
+    margin: 0 10px;
+}
+#icon-email {
+    position: absolute;
+    top: 260px;
+    left: 0px;
+    width: 5px;
+    margin: 0 10px;
+}
+#icon-phone {
+    position: absolute;
+    top: 310px;
+    left: 0px;
+    width: 5px;
+    margin: 0 10px;
+}
+#icon-pass1 {
+    position: absolute;
+    top: 360px;
+    left: 4px;
+    width: 5px;
+    margin: 0 10px;
+}
+#icon-pass2 {
+    position: absolute;
+    top: 410px;
+    left: 4px;
+    width: 5px;
+    margin: 0 10px;
+}
+.textbox input{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+  //  float: left;
+    margin :0 10px;
+    padding-left: 40px;
+
+
+}
+
+::placeholder {
+    color: white;}
+#btn {
+    width: 300px;
+    background: none;
+    border: 2px solid silver;
+    color:white;
+    padding:5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+#mem_level{
+    width: 300px;
+   text-align: center;
+    background: silver;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#msg{
+    color: #ff9920;
+    font-size: 15px;
+}
+
+#msg1{
+    color: #ff9920;
+    font-size: 15px;
+}

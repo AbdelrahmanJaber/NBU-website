@@ -1,0 +1,557 @@
+#logoDiv{
+    display:block ;
+    width: 100%;
+    height: 11vw;
+    background-color: yellowgreen;
+}
+.tab {
+    overflow: hidden;
+    width: 100%;
+    height: 4vw;
+    background: steelblue;
+    border-radius: 2vw;
+    margin-top: 0;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: steelblue;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 9vw;
+    height: 2.6vw;
+    font-size: 1.2vw;
+    margin: .7vw;
+    border: none;
+    border-radius: 2vw;
+    font-family: Andalus;
+    color:whitesmoke;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    color: maroon;
+}
+
+/* Create an active/current tablink class */
+#voltab{
+    margin-top: 2vw;
+    display: none;
+
+    border-top: none;
+
+
+}
+#studystab {
+    margin-top: 2vw;
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+
+}
+#formstab {
+    margin-top: 2vw;
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+
+}
+#mailtab {
+    margin-top: 2vw;
+    display: none;
+    padding: 6px 12px;
+
+    border-top: none;
+
+}
+#divtablevol{
+    margin-top: 2vw;
+    background-color:white;
+    overflow: auto;
+ }
+.tablvol {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tablvol td {
+    border: .1vw solid maroon;
+    padding: .4vw;
+    font-size: 1vw;
+}
+.tablvol select
+{
+    font-size: 1vw;
+}
+.tablvol tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablvol tr:hover {background-color: #ddd;}
+
+.tablvol th {
+    padding-top: .4vw;
+    padding-bottom: .4vw;
+    text-align: left;
+    background-color: lightblue;
+    color: maroon;
+    border: .1vw solid maroon;
+    font-size: 1.2vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.tablvol input {
+   width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: inherit;
+    font-size: 1vw;
+
+}
+.deletebut {
+    color:honeydew;
+    font-size: 1vw;
+   background: red;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.updatebut{
+    color:honeydew;
+    font-size: 1vw;
+    background:steelblue;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#insertbut{
+    background: green;
+    color:whitesmoke;
+    font-size: 1vw;
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+
+#tabletoaddnewstudy
+{
+    background: skyblue;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    height: 2.2vw;
+}
+#tabletoaddnewstudy th
+{
+    font-size: 1.2vw;
+}
+
+.inputaddstdclass
+{
+    width: 14vw;
+    font-size: 1vw;
+
+}
+#addStubutID
+{
+    width: 6vw;
+    color: white;
+    background: forestgreen;
+    border: none;
+    font-size: 1vw;
+    height: 1.75vw;
+}
+#searchvoldiv{
+    margin-top: .4vw;
+    margin-bottom: 0;
+}
+#trupd {
+    background: steelblue;
+    height: 1.6vw;
+}
+#trupd td {
+    height: .6vw;
+    border: none;
+    border: .1vw solid white;
+
+}
+#trupd input {
+   color: white;
+}
+#trupd button
+{
+    height: 100%;
+    font-size: 1vw;
+    width: 100%;
+    background:  forestgreen;
+    color: white;
+    border: none;
+}
+#trupd select
+{
+    font-size: 1vw;
+    width: 100%;
+    height: 100%;
+}
+#tdbutupd
+{
+    background: forestgreen;
+}
+#linebetupdtr{
+    background: white;
+}
+#linebetupdtr td{
+    border: none;
+    height: 1vw;
+}
+
+
+#searchtable{
+    padding: 0;
+    margin:0;
+
+}
+
+#searchtable td{
+    padding: 0;
+    margin:0;
+
+
+}
+#searchtable input
+{
+width: 10vw;
+    font-size: 1vw;
+    height: 100%;
+    width: 12vw;
+    border-radius: 10vw;
+}
+#searchtable select{
+    color: maroon;
+    font-size: 1vw;
+    width: 6vw;
+    height: 100%;
+    border-radius: 10px;
+}
+#searchvolbut
+{
+    background:forestgreen;
+    color: white;
+    width: 6vw;
+    font-size: 1vw;
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#show_incomplete_volunteer_data_but
+{
+    width: 14vw;
+    background:lightgrey;
+    color: black;
+    font-size: 1vw;
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 6vw;
+}
+
+
+
+#searchstdtable
+{
+    background: steelblue;
+    margin-top: .8vw;
+    margin-bottom: .8vw;
+
+}
+#searchstdtable input , select
+{
+    font-size: 1vw;
+    width: 10vw;
+    height: 100%;
+}
+#searchstdtable button
+{
+    background: forestgreen;
+    border: none;
+    color: white;
+    font-size: 1vw;
+    height: 100%;
+}
+#delete_std_td{
+    width: 4vw;
+}
+#change_std_td{
+    width: 4vw;
+}
+.deletestudbut{
+    color:honeydew;
+    font-size: 1vw;
+    background: red;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.changestudbut{
+    color:honeydew;
+    font-size: 1vw;
+    background:steelblue;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.deleteformbut
+{
+    color:honeydew;
+    font-size: 1vw;
+    background: red;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.last_post_but
+{
+    color:honeydew;
+    font-size: 1vw;
+    background: steelblue;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#getdate_td
+{
+    width: 6vw;
+}
+.get_date_field
+{
+    font-size: 1vw;
+    background: inherit;
+    width: 100%;
+    height: 100%;
+
+}
+.save_form
+{
+
+    color:honeydew;
+    font-size: 1vw;
+    background:forestgreen;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#saveform_td
+{
+    width: 4vw;
+}
+#deleteform_td
+{
+    width: 4vw;
+}
+#lastpost_td
+{
+    width: 4vw;
+}
+#send_study_to_irb_div
+{
+    display: none;
+    margin-top: .3vw;
+    margin-bottom: 1vw;
+    margin-left: 0vw;
+
+    width: 20%;
+}
+#send_study_to_moh_div
+{
+    display: none;
+    margin-top: .3vw;
+    margin-bottom: 1vw;
+    margin-left: 0vw;
+
+    width: 20%;
+}
+#send_toMOH_Form_table
+{
+    background: rgba(70,120,300,0.6);
+    width: 100%;
+    border-radius: 20px;
+    height: 18vw;
+}
+#send_toMOH_Form_table td
+{
+    font-size: 1vw;
+
+}
+#send_toMOH_Form_table input
+{
+    margin-top: 0vw;
+    font-size: 1vw;
+    width: 90%;
+}
+#submit_study_toMOH_id
+{
+    width: 100%;
+    background: seagreen;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+#send_toIRB_Form_table
+{
+    background: rgba(70,120,300,0.6);
+    width: 100%;
+    border-radius: 20px;
+    height: 18vw;
+}
+#send_toIRB_Form_table td
+{
+    font-size: 1vw;
+
+}
+#send_toIRB_Form_table input
+{
+    margin-top: 0vw;
+    font-size: 1vw;
+    width: 90%;
+}
+#submit_study_toIRB_id
+{
+    width: 100%;
+    background: seagreen;
+    color: white;
+    border-radius: 20px;
+}
+
+#send_buttons_table
+{
+    background: lightblue;
+    height: 2.5vw;
+
+}
+#send_buttons_table td{
+    width: 11vw;
+    margin: 0;
+    height: 100%;
+    padding: .2vw .8vw .2vw .8vw;
+
+}
+#send_buttons_table button
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    background: lightblue;
+    font-size: 1vw;
+    color: maroon;
+    width: 100%;
+    height: 100%;
+    border:none;
+
+}
+#send_buttons_table button:hover {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: steelblue;
+    font-size: 1vw;
+    color:white;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+#send_buttons_table button:visited {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: seagreen;
+    font-size: 1vw;
+    color:white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+#form_table_sort{
+    background: #6B9FFF;
+    margin-bottom: 3vw;
+    border-radius: 5px;
+}
+#form_table_sort td{
+    font-size: 1.2vw;
+    color: maroon;
+}
+#form_table_sort select{
+    font-size: 1vw;
+    color: maroon;
+    border-radius: 5px;
+}
+.search_mail_class{
+    display: none;
+    margin-top: 1.6vw;
+    background: #6B9FFF;
+    border-radius: 5px;
+}
+.search_mail_class input {
+    font-size: 1vw ;
+    width: 12vw;
+    border-radius: 5px;
+}
+.search_mail_class button {
+    font-size: 1vw ;
+    width: 8vw;
+    border-radius: 5px;
+}
+.search_mail_class select {
+    font-size: 1vw ;
+    width: 8vw;
+    border-radius: 5px;
+}
+#log_out_but
+{
+    position: absolute;
+    right: 1vw;
+    color: white;
+    width: 6vw;
+}
+#log_out_but:hover
+{
+    background: red;
+    color: white;
+}
+#date_time_p
+{
+    position: absolute;
+    left: 55%;
+    margin-top: 1.3vw;
+    height: 2vw;
+    color: lightyellow;
+    font-size: 1.2vw;
+}
+#get_mod_forms_but
+{
+    font-size: 1vw;
+    border-radius: 5px;
+}
+#sign_up_but
+{
+    position: absolute;
+    right: 9vw;
+    color: white;
+    width: 6vw;
+}
+#sign_up_but:hover
+{
+    background: green;
+    color: white;
+}
