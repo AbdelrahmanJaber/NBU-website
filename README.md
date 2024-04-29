@@ -122,4 +122,4 @@ Receives studies from NBU, accepts/rejects them, and posts approved studies for 
 <br/>
 
 <h2>Demo:</h2>
-Watch the demo here: 
+Watch the demo here: https://drive.google.com/file/d/1xpds1bd66h06Mvq8-C2lOabxdJWKkQH1/view?usp=sharing
